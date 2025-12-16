@@ -30,11 +30,12 @@ BottomRight=ShowDesktop
 
 [MouseBindings]
 CommandActiveTitlebar2=Minimize
-CommandAllWheel=Previous/Next Desktop
+CommandAll2=Operations menu
+CommandAllWheel=Maximize/Restore
 CommandInactiveTitlebar2=Minimize
 
 [Plugins]
-cubeEnabled=true
+desktopchangeosdEnabled=true
 mouseclickEnabled=true
 mousemarkEnabled=true
 thumbnailasideEnabled=true
@@ -42,22 +43,58 @@ touchpointsEnabled=true
 trackmouseEnabled=true
 
 [Tiling]
-padding=1
+padding=0
 
 [Tiling][27727414-0bb5-4949-9b11-59de010a9cff][2a9c1754-d72e-4087-91d0-5b03c37f329d]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
-[Tiling][30851d3a-722b-4416-8519-553bda30b653][2a9c1754-d72e-4087-91d0-5b03c37f329d]
+[Tiling][27727414-0bb5-4949-9b11-59de010a9cff][66f9c739-c161-4265-9a09-70a735905e4a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][27727414-0bb5-4949-9b11-59de010a9cff][fb9be5a7-2ded-449a-b849-2c24a47871f7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][30851d3a-722b-4416-8519-553bda30b653][2a9c1754-d72e-4087-91d0-5b03c37f329d]
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4},{"width":0.6}]}
+
+[Tiling][30851d3a-722b-4416-8519-553bda30b653][66f9c739-c161-4265-9a09-70a735905e4a]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][30851d3a-722b-4416-8519-553bda30b653][fb9be5a7-2ded-449a-b849-2c24a47871f7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
 [Tiling][4a5df8b7-58dc-49c4-ad9d-263941ea2185][2a9c1754-d72e-4087-91d0-5b03c37f329d]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
-[Tiling][b72d0f82-60a5-43f2-861a-651e85a09056][2a9c1754-d72e-4087-91d0-5b03c37f329d]
+[Tiling][4a5df8b7-58dc-49c4-ad9d-263941ea2185][66f9c739-c161-4265-9a09-70a735905e4a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][4a5df8b7-58dc-49c4-ad9d-263941ea2185][fb9be5a7-2ded-449a-b849-2c24a47871f7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][b72d0f82-60a5-43f2-861a-651e85a09056][2a9c1754-d72e-4087-91d0-5b03c37f329d]
+tiles={"layoutDirection":"floating","tiles":[]}
+
+[Tiling][b72d0f82-60a5-43f2-861a-651e85a09056][66f9c739-c161-4265-9a09-70a735905e4a]
+tiles={"layoutDirection":"floating","tiles":[]}
+
+[Tiling][b72d0f82-60a5-43f2-861a-651e85a09056][fb9be5a7-2ded-449a-b849-2c24a47871f7]
+tiles={"layoutDirection":"floating","tiles":[]}
 
 [Tiling][e0b3d532-2b59-4162-ab88-8fd059a4f07c][2a9c1754-d72e-4087-91d0-5b03c37f329d]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e0b3d532-2b59-4162-ab88-8fd059a4f07c][66f9c739-c161-4265-9a09-70a735905e4a]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e0b3d532-2b59-4162-ab88-8fd059a4f07c][fb9be5a7-2ded-449a-b849-2c24a47871f7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Windows]
+ActivationDesktopPolicy=2
+DelayFocusInterval=200
+ElectricBorderDelay=0
+Placement=Smart
 
 [Xwayland]
 Scale=1.25

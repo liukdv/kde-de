@@ -1,3 +1,6 @@
+[Applications][google-chrome]
+Seen=true
+
 [Notifications]
 PopupPosition=BottomRight
 PopupTimeout=7000
