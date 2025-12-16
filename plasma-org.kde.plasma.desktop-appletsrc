@@ -5,8 +5,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-2048x1280=Applet-42:1456,1200,643.719,80,0;
-ItemGeometriesHorizontal=Applet-42:1456,1200,643.719,80,0;
+ItemGeometries-2048x1280=Applet-42:1312,992,640,80,0;
+ItemGeometriesHorizontal=Applet-42:1312,992,640,80,0;
 activityId=34c22c79-97c7-4f74-ae5c-9ef014203dc1
 formfactor=0
 immutability=1
@@ -20,6 +20,7 @@ immutability=1
 plugin=org.kde.plasma.fuzzyclock
 
 [Containments][1][Applets][42][Configuration]
+PreloadWeight=55
 popupHeight=400
 popupWidth=560
 
@@ -232,7 +233,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=82
+PreloadWeight=74
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
 showPercentage=true
@@ -242,14 +243,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=77
+PreloadWeight=69
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=4
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][25][Configuration]
 PreloadWeight=42
