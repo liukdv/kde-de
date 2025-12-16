@@ -1,0 +1,4 @@
+[Libinput][1267][12977][VEN_04F3:00 04F3:32B1 Touchpad]
+ClickMethod=2
+Enabled=true
+LmrTapButtonMap=false

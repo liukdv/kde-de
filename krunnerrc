@@ -1,0 +1,6 @@
+[Plugins]
+browsertabsEnabled=false
+krunner_keysEnabled=true
+
+[Plugins][Favorites]
+plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings,krunner_bookmarksrunner,browsertabs,calculator,krunner_recentdocuments,krunner_plasma-desktop
