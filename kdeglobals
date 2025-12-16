@@ -158,6 +158,7 @@ Speedbar Width=140
 View Style=DetailTree
 
 [Shortcuts]
+ConfigureNotifications=Meta+,
 FindPrev=
 Help=
 Redo=Ctrl+Y; Ctrl+Shift+Z
