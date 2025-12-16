@@ -1,2 +1,2 @@
 # kde-de
-plasma settings 
+plasma settings synced automatically
