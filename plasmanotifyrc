@@ -1,6 +1,16 @@
+[Applications][chromium-browser]
+Seen=true
+
+[Applications][firefox]
+Seen=true
+
 [Applications][google-chrome]
 Seen=true
 
+[Applications][org.telegram.desktop]
+Seen=true
+
 [Notifications]
+LowPriorityHistory=true
 PopupPosition=BottomRight
 PopupTimeout=7000

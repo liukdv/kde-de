@@ -1,3 +1,10 @@
+[DetailsMode]
+RightPadding=0
+
+[ExtractDialog]
+2 screens: Height=540
+2 screens: Width=1256
+
 [General]
 Version=202
 ViewPropsTimestamp=2025,12,16,1,31,14.850999999999999

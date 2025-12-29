@@ -7,6 +7,12 @@ Show Status Bar=true
 Show Tab Bar=true
 Show Url Nav Bar=true
 
+[MainWindow]
+2 screens: Height=627
+2 screens: Width=915
+3 screens: Height=1052
+3 screens: Width=960
+
 [filetree]
 editShade=30,78,103
 listMode=false
