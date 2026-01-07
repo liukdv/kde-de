@@ -262,7 +262,7 @@ powerProfile=Battery\tMeta+B,Battery\tMeta+B,Switch Power Profile
 [plasmashell]
 Slideshow Wallpaper Next Image=none,,Next Wallpaper Image
 _k_friendly_name=plasmashell
-activate application launcher=Meta+`\tAlt+F1\tMeta+\\\\\tMeta+C,Meta\tAlt+F1,Activate Application Launcher
+activate application launcher=Meta+\\\\\tMeta+`\tAlt+F1\tMeta+Backspace,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -300,6 +300,9 @@ _launch=Meta+W
 [services][google-chrome.desktop]
 _launch=Meta+Y
 
+[services][net.local.systemsettings.desktop]
+_launch=Meta+C
+
 [services][nvim.desktop]
 _launch=Meta+X
 
@@ -308,6 +311,9 @@ _launch=Meta+F
 
 [services][org.kde.konsole.desktop]
 _launch=Meta+K\tCtrl+Alt+T
+
+[services][org.kde.krunner.desktop]
+_launch=Alt+F2\tAlt+Space\tSearch\tMeta+Space
 
 [services][org.kde.plasma.emojier.desktop]
 _launch=Meta+.

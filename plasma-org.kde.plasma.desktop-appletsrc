@@ -133,7 +133,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][32][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 popupHeight=361
 popupWidth=360
 
@@ -245,7 +245,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=60
+PreloadWeight=59
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
 showPercentage=true
@@ -255,20 +255,28 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=35
+PreloadWeight=24
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=35
+PreloadWeight=47
 
 [Containments][2][Applets][7][Applets][25][Configuration]
 PreloadWeight=42
 
+[Containments][2][Applets][7][Applets][43]
+immutability=1
+plugin=org.kde.plasma.trash
+
 [Containments][2][Applets][7][Applets][43][Configuration]
 PreloadWeight=42
+
+[Containments][2][Applets][7][Applets][44]
+immutability=1
+plugin=org.kde.plasma.printmanager
 
 [Containments][2][Applets][7][Applets][8][Configuration]
 PreloadWeight=42
@@ -286,9 +294,10 @@ DialogWidth=854
 
 [Containments][2][Applets][7][General]
 disabledStatusNotifiers=blueman
-extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.devicenotifier
+extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.trash,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout
+hiddenItems=org.kde.plasma.trash,org.kde.plasma.printmanager
 knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.brightness,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.keyboardindicator,org.kde.plasma.printmanager,org.kde.kscreen
-shownItems=org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.notifications,org.kde.kscreen,org.kde.plasma.devicenotifier
+shownItems=org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout
 
 [Containments][2][General]
 AppletOrder=3;4;5;32;28;7;26;29;20;21
@@ -310,7 +319,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=file:///nix/store/g34zzzhy48x7dmza1sqzrfkdrn56l6sv-plasma-workspace-wallpapers-6.5.4/share/wallpapers/Mountain/
+Image=file:///nix/store/gxn3s7509c31qfvdi090fiaihzyjwxgs-plasma-workspace-wallpapers-6.5.4/share/wallpapers/MilkyWay/
 SlidePaths=/nix/store/vikq2n1i3jczwp4pi1mc980jbl3snw8v-breeze-6.5.4/share/wallpapers/,/run/current-system/sw/share/wallpapers/
 
 [Containments][31]
@@ -327,7 +336,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][31][Wallpaper][org.kde.image][General]
-Image=file:///nix/store/g34zzzhy48x7dmza1sqzrfkdrn56l6sv-plasma-workspace-wallpapers-6.5.4/share/wallpapers/Mountain/
+Image=file:///nix/store/gxn3s7509c31qfvdi090fiaihzyjwxgs-plasma-workspace-wallpapers-6.5.4/share/wallpapers/MilkyWay/
 SlidePaths=/nix/store/vikq2n1i3jczwp4pi1mc980jbl3snw8v-breeze-6.5.4/share/wallpapers/,/run/current-system/sw/share/wallpapers/
 
 [ScreenMapping]
