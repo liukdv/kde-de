@@ -4,6 +4,9 @@ RightPadding=0
 [ExtractDialog]
 2 screens: Height=540
 2 screens: Width=1256
+2048x1280 screen: Height=640
+2048x1280 screen: Width=1320
+DirHistory[$e]=$HOME/tmp/
 
 [General]
 Version=202

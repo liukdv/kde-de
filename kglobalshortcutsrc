@@ -274,6 +274,7 @@ activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 2=Meta+Z,none,Activate Panel Widget
+activate widget 3=none,none,Activate Application Launcher Widget
 clear-history=Ctrl+Alt+X,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
@@ -303,9 +304,6 @@ _launch=Meta+Y
 [services][net.local.systemsettings.desktop]
 _launch=Meta+C
 
-[services][nvim.desktop]
-_launch=Meta+X
-
 [services][org.kde.dolphin.desktop]
 _launch=Meta+F
 
@@ -314,6 +312,9 @@ _launch=Meta+K\tCtrl+Alt+T
 
 [services][org.kde.krunner.desktop]
 _launch=Alt+F2\tAlt+Space\tSearch\tMeta+Space
+
+[services][org.kde.kwrite.desktop]
+_launch=Meta+X
 
 [services][org.kde.plasma.emojier.desktop]
 _launch=Meta+.

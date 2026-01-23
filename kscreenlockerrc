@@ -1,3 +1,8 @@
 [Daemon]
 LockGrace=30
 Timeout=30
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///nix/store/gxn3s7509c31qfvdi090fiaihzyjwxgs-plasma-workspace-wallpapers-6.5.4/share/wallpapers/SafeLanding/
+PreviewImage=file:///nix/store/gxn3s7509c31qfvdi090fiaihzyjwxgs-plasma-workspace-wallpapers-6.5.4/share/wallpapers/SafeLanding/
+SlidePaths=/home/liukdv/.local/share/wallpapers/,/nix/store/hxgrw0j6wpnx96r1ka60k38l1bvva53b-breeze-6.5.4/share/wallpapers/,/run/current-system/sw/share/wallpapers/

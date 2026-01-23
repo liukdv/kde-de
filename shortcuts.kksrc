@@ -23,12 +23,12 @@ BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+W; Ctrl+Esc
+Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=Meta+,
 ConfigureToolbars=
-Copy=Ctrl+Ins; Ctrl+C
+Copy=Ctrl+C; Ctrl+Ins
 CreateFolder=Ctrl+Shift+N
-Cut=Shift+Del; Ctrl+X
+Cut=Ctrl+X; Shift+Del
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -52,7 +52,7 @@ Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=
-Home=Alt+Home; Home Page
+Home=Home Page; Alt+Home
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -60,10 +60,10 @@ New=Ctrl+N
 Next=PgDown
 NextCompletion=Ctrl+Down
 Open=Ctrl+O
-OpenContextMenu=Shift+F10; Menu
+OpenContextMenu=Menu; Shift+F10
 OpenMainMenu=F10
 OpenRecent=
-Paste=Ctrl+V; Shift+Ins
+Paste=Shift+Ins; Ctrl+V
 Paste Selection=Ctrl+Shift+Ins
 Preferences=Ctrl+Shift+,
 PrevCompletion=Ctrl+Up
@@ -94,7 +94,7 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=
 Zoom=
-ZoomIn=Ctrl+=; Ctrl++
+ZoomIn=Ctrl++; Ctrl+=
 ZoomOut=Ctrl+-
 
 [code.desktop][Global Shortcuts]
@@ -149,7 +149,7 @@ decrease_volume_small=Shift+Volume Down
 increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up
 increase_volume_small=Shift+Volume Up
-mic_mute=Microphone Mute; Meta+Volume Mute
+mic_mute=Meta+Volume Mute; Microphone Mute
 mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
@@ -170,7 +170,7 @@ Cube=
 Cycle Overview=
 Cycle Overview Opposite=Meta+F1
 Decrease Opacity=
-Edit Tiles=Meta+Tab; Meta+T
+Edit Tiles=Meta+T; Meta+Tab
 Expose=Meta+F2
 ExposeAll=Meta+F3; Launch (C)
 ExposeClass=Meta+F4
@@ -256,10 +256,10 @@ Window Fullscreen=
 Window Grow Horizontal=
 Window Grow Vertical=
 Window Lower=
-Window Maximize=Meta+PgUp; Alt+F10; Meta+Shift+Up
+Window Maximize=Meta+PgUp; Meta+Shift+Up; Alt+F10
 Window Maximize Horizontal=
 Window Maximize Vertical=
-Window Minimize=Meta+PgDown; Meta+Shift+Down
+Window Minimize=Meta+Shift+Down; Meta+PgDown
 Window Move=
 Window Move Center=
 Window No Border=
@@ -323,7 +323,7 @@ Window to Screen 6=
 Window to Screen 7=
 disableInputCapture=Meta+Shift+Esc
 view_actual_size=Meta+0
-view_zoom_in=Meta++; Meta+=
+view_zoom_in=Meta+=; Meta++
 view_zoom_out=Meta+-
 
 [mediacontrol][Global Shortcuts]
@@ -333,7 +333,7 @@ nextmedia=Media Next; Ctrl+Alt+Down
 pausemedia=Media Pause
 playmedia=
 playpausemedia=Ctrl+Alt+Return; Media Play
-previousmedia=Media Previous; Ctrl+Alt+Up
+previousmedia=Ctrl+Alt+Up; Media Previous
 stopmedia=Media Stop
 
 [net.local.systemsettings.desktop][Global Shortcuts]
@@ -355,10 +355,13 @@ _launch=Ctrl+Alt+T; Meta+K
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Search; Alt+F2; Alt+Space; Meta+Space
+_launch=Meta+Space; Search; Alt+Space; Alt+F2
 
 [org.kde.kscreen.desktop][Global Shortcuts]
 ShowOSD=Display; Meta+P
+
+[org.kde.kwrite.desktop][Global Shortcuts]
+_launch=Meta+X
 
 [org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
 _launch=Meta+Esc
@@ -376,12 +379,12 @@ RecordScreen=Meta+Shift+R
 RecordWindow=Meta+Ctrl+R
 RectangularRegionScreenShot=
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
-_launch=Meta+A; Print
+_launch=Print; Meta+A
 
 [org.kde.touchpadshortcuts.desktop][Global Shortcuts]
 DisableTouchpad=Touchpad Off
 EnableTouchpad=Touchpad On
-ToggleTouchpad=Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku; Meta+Ctrl+Touchpad Toggle
+ToggleTouchpad=Meta+Ctrl+Zenkaku Hankaku; Meta+Ctrl+Touchpad Toggle; Touchpad Toggle
 
 [org.speedcrunch.SpeedCrunch.desktop][Global Shortcuts]
 _launch=Meta+Q
@@ -399,11 +402,11 @@ PowerOff=Power Off
 Sleep=
 Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
-powerProfile=Meta+B; Battery
+powerProfile=Battery; Meta+B
 
 [plasmashell][Global Shortcuts]
 Slideshow Wallpaper Next Image=
-activate application launcher=Meta+\\; Meta+`; Alt+F1; Meta+Backspace
+activate application launcher=Meta+Backspace; Meta+`; Meta+\\; Alt+F1
 activate task manager entry 1=Meta+1
 activate task manager entry 10=
 activate task manager entry 2=Meta+2
@@ -415,6 +418,7 @@ activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
 activate widget 2=Meta+Z
+activate widget 3=
 clear-history=Ctrl+Alt+X
 clipboard_action=Meta+Ctrl+X
 cycle-panels=Meta+Alt+P
@@ -433,7 +437,7 @@ switch to previous activity=
 toggle do not disturb=Meta+M
 
 [systemsettings.desktop][Global Shortcuts]
-_launch=Meta+S; Tools
+_launch=Tools; Meta+S
 kcm-kscreen=
 kcm-lookandfeel=
 kcm-powerdevilprofilesconfig=

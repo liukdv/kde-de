@@ -5,9 +5,11 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
+ItemGeometries-1080x1920=Applet-42:432,992,640,80,0;
 ItemGeometries-1920x1080=Applet-42:1264,992,656,80,0;
 ItemGeometries-2048x1280=Applet-42:1312,992,656,80,0;
 ItemGeometriesHorizontal=Applet-42:1264,992,656,80,0;
+ItemGeometriesVertical=Applet-42:432,992,640,80,0;
 activityId=34c22c79-97c7-4f74-ae5c-9ef014203dc1
 formfactor=0
 immutability=1
@@ -77,7 +79,7 @@ immutability=1
 plugin=org.kde.plasma.notes
 
 [Containments][2][Applets][26][Configuration]
-PreloadWeight=70
+PreloadWeight=95
 popupHeight=400
 popupWidth=560
 
@@ -90,25 +92,34 @@ immutability=1
 plugin=org.kde.plasma.notes
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=65
+PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
 [Containments][2][Applets][28][Configuration][General]
+cursorPosition=2018
 fontSize=10
 noteId=ff8dd6bc-4ff3-423f-9c5f-f3e57ffe4d
+scrollY=11610
 
 [Containments][2][Applets][29]
 immutability=1
 plugin=org.kde.plasma.timer
 
 [Containments][2][Applets][29][Configuration]
-PreloadWeight=60
+PreloadWeight=75
 popupHeight=400
 popupWidth=560
 
+[Containments][2][Applets][29][Configuration][ConfigDialog]
+DialogHeight=378
+DialogWidth=810
+
 [Containments][2][Applets][29][Configuration][General]
+notificationText=Timer up!
 savedAt=2025,12,18,12,56,35.868
+showProgressBar=true
+title=
 
 [Containments][2][Applets][3]
 immutability=1
@@ -125,7 +136,7 @@ DialogWidth=810
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
-icon=start-here-kde
+icon=preferences-desktop-default-applications
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][2][Applets][32]
@@ -218,7 +229,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][2][Applets][7][Applets][16][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][2][Applets][7][Applets][16][Configuration][ConfigDialog]
 DialogHeight=630
@@ -240,12 +251,15 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][2][Applets][7][Applets][19][Configuration]
+PreloadWeight=55
+
 [Containments][2][Applets][7][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=59
+PreloadWeight=58
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
 showPercentage=true
@@ -255,14 +269,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=24
+PreloadWeight=8
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=47
+PreloadWeight=59
 
 [Containments][2][Applets][7][Applets][25][Configuration]
 PreloadWeight=42
@@ -286,7 +300,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][2][Applets][7][Applets][9][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 
 [Containments][2][Applets][7][ConfigDialog]
 DialogHeight=630
@@ -296,6 +310,7 @@ DialogWidth=854
 disabledStatusNotifiers=blueman
 extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.trash,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout
 hiddenItems=org.kde.plasma.trash,org.kde.plasma.printmanager
+iconSpacing=1
 knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.brightness,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.keyboardindicator,org.kde.plasma.printmanager,org.kde.kscreen
 shownItems=org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout
 
