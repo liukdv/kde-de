@@ -14,21 +14,21 @@ Switch to Next Keyboard Layout=Meta+Ctrl+Return
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+]; Ctrl+PgDown
+Activate Next Tab=Ctrl+PgDown; Ctrl+]
 Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
-Back=Back; Alt+Left
+Back=Alt+Left; Back
 BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+Esc; Ctrl+W
+Close=Ctrl+W; Ctrl+Esc
 ConfigureNotifications=Meta+,
 ConfigureToolbars=
 Copy=Ctrl+C; Ctrl+Ins
 CreateFolder=Ctrl+Shift+N
-Cut=Ctrl+X; Shift+Del
+Cut=Shift+Del; Ctrl+X
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -52,7 +52,7 @@ Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=
-Home=Home Page; Alt+Home
+Home=Alt+Home; Home Page
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -63,7 +63,7 @@ Open=Ctrl+O
 OpenContextMenu=Menu; Shift+F10
 OpenMainMenu=F10
 OpenRecent=
-Paste=Shift+Ins; Ctrl+V
+Paste=Ctrl+V; Shift+Ins
 Paste Selection=Ctrl+Shift+Ins
 Preferences=Ctrl+Shift+,
 PrevCompletion=Ctrl+Up
@@ -82,7 +82,7 @@ RotateUp=Up
 Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Ctrl+H; Alt+.
+ShowHideHiddenFiles=Alt+.; Ctrl+H
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -94,7 +94,7 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=
 Zoom=
-ZoomIn=Ctrl++; Ctrl+=
+ZoomIn=Ctrl+=; Ctrl++
 ZoomOut=Ctrl+-
 
 [code.desktop][Global Shortcuts]
@@ -154,7 +154,7 @@ mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
-Lock Session=Meta+L; Screensaver
+Lock Session=Screensaver; Meta+L
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=
 LogOut=
@@ -170,9 +170,9 @@ Cube=
 Cycle Overview=
 Cycle Overview Opposite=Meta+F1
 Decrease Opacity=
-Edit Tiles=Meta+T; Meta+Tab
+Edit Tiles=Meta+Tab; Meta+T
 Expose=Meta+F2
-ExposeAll=Meta+F3; Launch (C)
+ExposeAll=Launch (C); Meta+F3
 ExposeClass=Meta+F4
 ExposeClassCurrentDesktop=Meta+F5
 Grid View=
@@ -211,7 +211,7 @@ Switch to Desktop 2=Ctrl+F2
 Switch to Desktop 20=
 Switch to Desktop 3=Ctrl+F3
 Switch to Desktop 4=Ctrl+F4
-Switch to Desktop 5=Ctrl+F5
+Switch to Desktop 5=
 Switch to Desktop 6=
 Switch to Desktop 7=
 Switch to Desktop 8=
@@ -256,7 +256,7 @@ Window Fullscreen=
 Window Grow Horizontal=
 Window Grow Vertical=
 Window Lower=
-Window Maximize=Meta+PgUp; Meta+Shift+Up; Alt+F10
+Window Maximize=Meta+PgUp; Alt+F10; Meta+Shift+Up
 Window Maximize Horizontal=
 Window Maximize Vertical=
 Window Minimize=Meta+Shift+Down; Meta+PgDown
@@ -304,7 +304,7 @@ Window to Desktop 2=Shift+F2
 Window to Desktop 20=
 Window to Desktop 3=Shift+F3
 Window to Desktop 4=Shift+F4
-Window to Desktop 5=Shift+F5
+Window to Desktop 5=
 Window to Desktop 6=
 Window to Desktop 7=
 Window to Desktop 8=
@@ -329,7 +329,7 @@ view_zoom_out=Meta+-
 [mediacontrol][Global Shortcuts]
 mediavolumedown=
 mediavolumeup=
-nextmedia=Media Next; Ctrl+Alt+Down
+nextmedia=Ctrl+Alt+Down; Media Next
 pausemedia=Media Pause
 playmedia=
 playpausemedia=Ctrl+Alt+Return; Media Play
@@ -337,7 +337,7 @@ previousmedia=Ctrl+Alt+Up; Media Previous
 stopmedia=Media Stop
 
 [net.local.systemsettings.desktop][Global Shortcuts]
-_launch=Meta+C
+_launch=Meta+R
 
 [nvim.desktop][Global Shortcuts]
 _launch=Meta+X
@@ -351,7 +351,7 @@ _launch=Meta+F
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
 NewWindow=
-_launch=Ctrl+Alt+T; Meta+K
+_launch=Meta+K; Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
@@ -374,7 +374,7 @@ ActiveWindowScreenShot=Meta+Print
 CurrentMonitorScreenShot=
 FullScreenScreenShot=Shift+Print
 OpenWithoutScreenshot=
-RecordRegion=Meta+R
+RecordRegion=Meta+Alt+R
 RecordScreen=Meta+Shift+R
 RecordWindow=Meta+Ctrl+R
 RectangularRegionScreenShot=
@@ -384,7 +384,7 @@ _launch=Print; Meta+A
 [org.kde.touchpadshortcuts.desktop][Global Shortcuts]
 DisableTouchpad=Touchpad Off
 EnableTouchpad=Touchpad On
-ToggleTouchpad=Meta+Ctrl+Zenkaku Hankaku; Meta+Ctrl+Touchpad Toggle; Touchpad Toggle
+ToggleTouchpad=Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku; Meta+Ctrl+Touchpad Toggle
 
 [org.speedcrunch.SpeedCrunch.desktop][Global Shortcuts]
 _launch=Meta+Q
@@ -406,7 +406,7 @@ powerProfile=Battery; Meta+B
 
 [plasmashell][Global Shortcuts]
 Slideshow Wallpaper Next Image=
-activate application launcher=Meta+Backspace; Meta+`; Meta+\\; Alt+F1
+activate application launcher=Alt+F1; Meta+Backspace; Meta+`; Meta+\\
 activate task manager entry 1=Meta+1
 activate task manager entry 10=
 activate task manager entry 2=Meta+2
