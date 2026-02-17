@@ -6,6 +6,8 @@ RightPadding=0
 2 screens: Width=1256
 2048x1280 screen: Height=640
 2048x1280 screen: Width=1320
+3 screens: Height=640
+3 screens: Width=1320
 DirHistory[$e]=$HOME/tmp/
 
 [General]

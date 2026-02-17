@@ -302,7 +302,7 @@ _launch=Meta+W
 _launch=Meta+Y
 
 [services][net.local.systemsettings.desktop]
-_launch=Meta+C
+_launch=Meta+R
 
 [services][org.kde.dolphin.desktop]
 _launch=Meta+F
@@ -320,7 +320,7 @@ _launch=Meta+X
 _launch=Meta+.
 
 [services][org.kde.spectacle.desktop]
-RecordRegion=Meta+R
+RecordRegion=Meta+Alt+R
 RecordScreen=Meta+Shift+R
 RectangularRegionScreenShot=none
 _launch=Meta+A\tPrint

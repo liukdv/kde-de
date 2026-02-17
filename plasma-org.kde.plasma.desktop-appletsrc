@@ -5,11 +5,11 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1080x1920=Applet-42:0,1008,656,80,0;
+ItemGeometries-1080x1920=Applet-46:800,1648,272,272,0;
 ItemGeometries-1920x1080=Applet-42:1264,992,656,80,0;
-ItemGeometries-2048x1280=Applet-42:1312,992,656,80,0;
-ItemGeometriesHorizontal=Applet-42:1264,992,656,80,0;
-ItemGeometriesVertical=Applet-42:0,1008,656,80,0;
+ItemGeometries-2048x1280=Applet-46:1712,944,272,272,0;
+ItemGeometriesHorizontal=Applet-46:1712,944,272,272,0;
+ItemGeometriesVertical=Applet-46:800,1648,272,272,0;
 activityId=34c22c79-97c7-4f74-ae5c-9ef014203dc1
 formfactor=0
 immutability=1
@@ -18,12 +18,12 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][1][Applets][42]
+[Containments][1][Applets][46]
 immutability=1
-plugin=org.kde.plasma.fuzzyclock
+plugin=org.kde.plasma.analogclock
 
-[Containments][1][Applets][42][Configuration]
-PreloadWeight=65
+[Containments][1][Applets][46][Configuration]
+PreloadWeight=55
 popupHeight=400
 popupWidth=560
 
@@ -84,9 +84,10 @@ popupHeight=400
 popupWidth=560
 
 [Containments][2][Applets][26][Configuration][General]
-cursorPosition=288
+cursorPosition=227
 fontSize=10
 noteId=0e75c288-bddf-4e80-a886-06970d8a21
+scrollY=1296
 
 [Containments][2][Applets][28]
 immutability=1
@@ -108,7 +109,7 @@ immutability=1
 plugin=org.kde.plasma.timer
 
 [Containments][2][Applets][29][Configuration]
-PreloadWeight=80
+PreloadWeight=90
 popupHeight=400
 popupWidth=560
 
@@ -230,15 +231,15 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][2][Applets][7][Applets][16][Configuration]
-PreloadWeight=70
+PreloadWeight=85
 
 [Containments][2][Applets][7][Applets][16][Configuration][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][7][Applets][16][Configuration][WeatherStation]
-placeDisplayName=Lecce, Italy, IT
-placeInfo=Lecce, Italy, IT|3174953
+placeDisplayName=Milano / Linate, Italy, IT
+placeInfo=Milano / Linate, Italy, IT|6299580
 provider=bbcukmet
 
 [Containments][2][Applets][7][Applets][17]
@@ -253,14 +254,14 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][2][Applets][7][Applets][19][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][2][Applets][7][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=50
+PreloadWeight=67
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
 showPercentage=true
@@ -270,14 +271,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=0
+PreloadWeight=7
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=76
+PreloadWeight=90
 
 [Containments][2][Applets][7][Applets][25][Configuration]
 PreloadWeight=42
