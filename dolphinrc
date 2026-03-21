@@ -1,3 +1,7 @@
+[ContentDisplay]
+UsePermissionsFormat=CombinedFormat
+UseShortRelativeDates=false
+
 [DetailsMode]
 RightPadding=0
 
@@ -11,6 +15,9 @@ RightPadding=0
 DirHistory[$e]=$HOME/tmp/
 
 [General]
+FilterBar=true
+ShowFullPath=true
+ShowToolTips=true
 Version=202
 ViewPropsTimestamp=2025,12,16,1,31,14.850999999999999
 
@@ -18,5 +25,5 @@ ViewPropsTimestamp=2025,12,16,1,31,14.850999999999999
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
-[MainWindow]
-MenuBar=Disabled
+[PreviewSettings]
+Plugins=appimagethumbnail,com.github.xournalpp.xournalpp,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs

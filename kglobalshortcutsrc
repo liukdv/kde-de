@@ -74,8 +74,8 @@ Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
 Edit Tiles=Meta+Tab\tMeta+T,Meta+T,Toggle Tiles Editor
 Expose=Meta+F2,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Launch (C)\tMeta+F3,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
-ExposeClass=Meta+F4,Ctrl+F7,Toggle Present Windows (Window class)
-ExposeClassCurrentDesktop=Meta+F5,none,Toggle Present Windows (Window class on current desktop)
+ExposeClass=none,Ctrl+F7,Toggle Present Windows (Window class)
+ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=none,Meta+G,Toggle Grid View
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
@@ -111,7 +111,7 @@ Switch to Desktop 19=none,,Switch to Desktop 19
 Switch to Desktop 2=Ctrl+F2,Ctrl+F2,Switch to Desktop 2
 Switch to Desktop 20=none,,Switch to Desktop 20
 Switch to Desktop 3=Ctrl+F3,Ctrl+F3,Switch to Desktop 3
-Switch to Desktop 4=Ctrl+F4,Ctrl+F4,Switch to Desktop 4
+Switch to Desktop 4=none,Ctrl+F4,Switch to Desktop 4
 Switch to Desktop 5=none,,Switch to Desktop 5
 Switch to Desktop 6=none,,Switch to Desktop 6
 Switch to Desktop 7=none,,Switch to Desktop 7
@@ -204,7 +204,7 @@ Window to Desktop 19=none,,Window to Desktop 19
 Window to Desktop 2=Shift+F2,,Window to Desktop 2
 Window to Desktop 20=none,,Window to Desktop 20
 Window to Desktop 3=Shift+F3,,Window to Desktop 3
-Window to Desktop 4=Shift+F4,,Window to Desktop 4
+Window to Desktop 4=none,,Window to Desktop 4
 Window to Desktop 5=none,,Window to Desktop 5
 Window to Desktop 6=none,,Window to Desktop 6
 Window to Desktop 7=none,,Window to Desktop 7
@@ -301,6 +301,9 @@ _launch=Meta+W
 [services][google-chrome.desktop]
 _launch=Meta+Y
 
+[services][net.local.kcmshell6.desktop]
+_launch=Meta+P
+
 [services][net.local.systemsettings.desktop]
 _launch=Meta+R
 
@@ -312,6 +315,9 @@ _launch=Meta+K\tCtrl+Alt+T
 
 [services][org.kde.krunner.desktop]
 _launch=Alt+F2\tAlt+Space\tSearch\tMeta+Space
+
+[services][org.kde.kscreen.desktop]
+ShowOSD=Display
 
 [services][org.kde.kwrite.desktop]
 _launch=Meta+X

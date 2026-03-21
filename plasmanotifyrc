@@ -10,6 +10,9 @@ Seen=true
 [Applications][org.telegram.desktop]
 Seen=true
 
+[DoNotDisturb]
+WhenScreensMirrored=false
+
 [Notifications]
 LowPriorityHistory=true
 PopupPosition=BottomRight
