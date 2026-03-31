@@ -85,10 +85,15 @@ PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
+[Containments][2][Applets][26][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
 [Containments][2][Applets][26][Configuration][General]
-cursorPosition=0
+cursorPosition=1566
 fontSize=10
 noteId=0e75c288-bddf-4e80-a886-06970d8a21
+scrollY=11970
 
 [Containments][2][Applets][28]
 immutability=1
@@ -164,6 +169,22 @@ DialogWidth=810
 showWindowIcons=true
 wrapPage=true
 
+[Containments][2][Applets][47]
+immutability=1
+plugin=org.kde.plasma.colorpicker
+
+[Containments][2][Applets][47][Configuration]
+PreloadWeight=100
+popupHeight=325
+popupWidth=324
+
+[Containments][2][Applets][47][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][2][Applets][47][Configuration][General]
+history=#ff6e61,#4a90e2,#da80bb,#f9f3f8,#2dd4bb,#c1b1e3,#ac9990,#fcb62d,#d2e410
+
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -174,6 +195,7 @@ DialogWidth=853
 
 [Containments][2][Applets][5][Configuration][General]
 groupedTaskVisualization=3
+iconSpacing=0
 launchers=applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:systemsettings.desktop,applications:org.kde.kwrite.desktop,applications:code-url-handler.desktop,applications:google-chrome.desktop
 showOnlyCurrentActivity=false
 wheelEnabled=AllTask
@@ -257,14 +279,14 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][2][Applets][7][Applets][19][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 
 [Containments][2][Applets][7][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=62
+PreloadWeight=14
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
 showPercentage=true
@@ -274,14 +296,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=100
+PreloadWeight=46
 
 [Containments][2][Applets][7][Applets][25][Configuration]
 PreloadWeight=42
@@ -320,7 +342,7 @@ knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.pl
 shownItems=org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.keyboardlayout
 
 [Containments][2][General]
-AppletOrder=3;4;5;32;28;7;26;29;20;21
+AppletOrder=3;4;5;32;47;28;7;26;29;20;21
 
 [Containments][2][Shortcuts]
 global=Meta+Z
