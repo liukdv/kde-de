@@ -5,12 +5,14 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
+ItemGeometries-1024x768=Applet-46:752,496,272,272,0;
 ItemGeometries-1080x1920=Applet-46:800,1648,272,272,0;
 ItemGeometries-1707x1067=Applet-46:1696,944,272,272,0;
 ItemGeometries-1920x1080=Applet-46:1648,816,272,256,0;
 ItemGeometries-1969x1231=Applet-46:1696,944,272,272,0;
 ItemGeometries-2048x1280=Applet-46:1712,944,272,272,0;
-ItemGeometriesHorizontal=Applet-46:1696,944,272,272,0;
+ItemGeometries-2560x1440=Applet-46:800,1168,272,272,0;
+ItemGeometriesHorizontal=Applet-46:752,496,272,272,0;
 ItemGeometriesVertical=Applet-46:800,1648,272,272,0;
 activityId=34c22c79-97c7-4f74-ae5c-9ef014203dc1
 formfactor=0
@@ -56,7 +58,7 @@ popupHeight=451
 popupWidth=810
 
 [Containments][2][Applets][20][Configuration][Appearance]
-customDateFormat=ddd dd/MM/yy
+customDateFormat=ddd dMMMyy
 dateFormat=custom
 enabledCalendarPlugins=holidaysevents
 firstDayOfWeek=1
@@ -90,10 +92,10 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][26][Configuration][General]
-cursorPosition=1566
+cursorPosition=744
 fontSize=10
 noteId=0e75c288-bddf-4e80-a886-06970d8a21
-scrollY=11970
+scrollY=5364
 
 [Containments][2][Applets][28]
 immutability=1
@@ -105,9 +107,10 @@ popupHeight=400
 popupWidth=560
 
 [Containments][2][Applets][28][Configuration][General]
-cursorPosition=0
+cursorPosition=182
 fontSize=10
 noteId=ff8dd6bc-4ff3-423f-9c5f-f3e57ffe4d
+scrollY=1422
 
 [Containments][2][Applets][29]
 immutability=1
@@ -196,7 +199,7 @@ DialogWidth=853
 [Containments][2][Applets][5][Configuration][General]
 groupedTaskVisualization=3
 iconSpacing=0
-launchers=applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:systemsettings.desktop,applications:org.kde.kwrite.desktop,applications:code-url-handler.desktop,applications:google-chrome.desktop
+launchers=applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop,applications:systemsettings.desktop,applications:org.kde.kwrite.desktop,applications:code.desktop,applications:google-chrome.desktop
 showOnlyCurrentActivity=false
 wheelEnabled=AllTask
 wheelSkipMinimized=false
@@ -286,7 +289,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=14
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
 showPercentage=true
@@ -303,7 +306,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=46
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][25][Configuration]
 PreloadWeight=42
