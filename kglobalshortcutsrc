@@ -307,6 +307,12 @@ _launch=Meta+P
 [services][net.local.systemsettings.desktop]
 _launch=Meta+R
 
+[services][nvim.desktop]
+_launch=Meta+U
+
+[services][org.gnome.Meld.desktop]
+_launch=Meta+G
+
 [services][org.kde.dolphin.desktop]
 _launch=Meta+F
 

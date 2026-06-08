@@ -1,5 +1,7 @@
 [Plugins]
-browsertabsEnabled=false
+baloosearchEnabled=true
+browsertabsEnabled=true
+krunner_bookmarksrunnerEnabled=false
 krunner_keysEnabled=true
 
 [Plugins][Favorites]
