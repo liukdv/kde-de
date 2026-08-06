@@ -1,8 +1,13 @@
+[Baloo KEditCommentDialog]
+3 screens: Height=252
+3 screens: Width=276
+
 [ContentDisplay]
 UsePermissionsFormat=CombinedFormat
 UseShortRelativeDates=false
 
 [DetailsMode]
+LeftPadding=0
 RightPadding=0
 
 [ExtractDialog]
@@ -10,8 +15,8 @@ RightPadding=0
 2 screens: Width=1256
 2048x1280 screen: Height=640
 2048x1280 screen: Width=1320
-3 screens: Height=640
-3 screens: Width=1320
+3 screens: Height=480
+3 screens: Width=892
 DirHistory[$e]=$HOME/tmp/
 
 [General]
@@ -20,6 +25,9 @@ ShowFullPath=true
 ShowToolTips=true
 Version=202
 ViewPropsTimestamp=2025,12,16,1,31,14.850999999999999
+
+[IconsMode]
+PreviewSize=48
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false

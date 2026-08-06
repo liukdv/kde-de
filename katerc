@@ -87,8 +87,8 @@ Word Completion Remove Tail=true
 2 screens: Height=1039
 2 screens: Width=1373
 2048x1280 screen: Window-Maximized=true
-3 screens: Height=1039
-3 screens: Width=1707
+3 screens: Height=932
+3 screens: Width=1080
 
 [filetree]
 editShade=30,78,103
