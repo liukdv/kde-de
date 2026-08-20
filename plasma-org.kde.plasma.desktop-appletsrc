@@ -176,13 +176,13 @@ plugin=org.kde.plasma.notes
 
 [Containments][2][Applets][56][Configuration]
 popupHeight=567
-popupWidth=588
+popupWidth=587
 
 [Containments][2][Applets][56][Configuration][General]
-cursorPosition=910
+cursorPosition=1539
 fontSize=10
 noteId=3db94cd1-414d-4623-ba17-635ed8f716
-scrollY=360
+scrollY=1062
 
 [Containments][2][Applets][58]
 immutability=1

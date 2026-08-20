@@ -18,8 +18,8 @@ Switch to Next Keyboard Layout=Meta+Ctrl+Return
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+PgDown; Ctrl+]
-Activate Previous Tab=Ctrl+PgUp; Ctrl+[
+Activate Next Tab=Ctrl+]; Ctrl+PgDown
+Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
 Back=Alt+Left; Back
@@ -27,7 +27,7 @@ BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+Esc; Ctrl+W
+Close=Ctrl+W; Ctrl+Esc
 ConfigureNotifications=Meta+,
 ConfigureToolbars=
 Copy=Ctrl+C; Ctrl+Ins
@@ -56,7 +56,7 @@ Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=
-Home=Home Page; Alt+Home
+Home=Alt+Home; Home Page
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -75,7 +75,7 @@ Print=Ctrl+P
 PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
-Redo=Ctrl+Shift+Z; Ctrl+Y
+Redo=Ctrl+Y; Ctrl+Shift+Z
 Reload=F5; Refresh
 RenameFile=F2
 Replace=Ctrl+R
@@ -98,7 +98,7 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=
 Zoom=
-ZoomIn=Ctrl++; Ctrl+=
+ZoomIn=Ctrl+=; Ctrl++
 ZoomOut=Ctrl+-
 
 [code.desktop][Global Shortcuts]
@@ -172,14 +172,14 @@ ClearLastMouseMark=Meta+Ctrl+Shift+F11
 ClearMouseMarks=Meta+Ctrl+Shift+F12
 Cube=
 Cycle Overview=
-Cycle Overview Opposite=Meta+F1
+Cycle Overview Opposite=
 Decrease Opacity=
 Edit Tiles=Meta+T
-Expose=Meta+F2
-ExposeAll=Meta+F3; Launch (C)
+Expose=Meta
+ExposeAll=Meta+F2; Meta+N
 ExposeClass=
 ExposeClassCurrentDesktop=
-Grid View=
+Grid View=Meta+I
 Increase Opacity=
 Kill Window=Meta+Ctrl+Esc
 KrohnkiteBTreeLayout=
@@ -225,7 +225,7 @@ MoveZoomDown=
 MoveZoomLeft=
 MoveZoomRight=
 MoveZoomUp=
-Overview=Meta
+Overview=Meta+E; Meta+F1
 Setup Window Shortcut=
 Show Desktop=Meta+D
 Switch One Desktop Down=Meta+Shift+Down
@@ -373,16 +373,16 @@ Window to Screen 6=
 Window to Screen 7=
 disableInputCapture=Meta+Shift+Esc
 view_actual_size=Meta+0
-view_zoom_in=Meta++; Meta+=
+view_zoom_in=Meta+=; Meta++
 view_zoom_out=Meta+-
 
 [mediacontrol][Global Shortcuts]
 mediavolumedown=
 mediavolumeup=
-nextmedia=Media Next; Ctrl+Alt+Down
+nextmedia=Ctrl+Alt+Down; Media Next
 pausemedia=Media Pause
 playmedia=
-playpausemedia=Media Play; Ctrl+Alt+Return
+playpausemedia=Ctrl+Alt+Return; Media Play
 previousmedia=Ctrl+Alt+Up; Media Previous
 seekbackwardmedia=Media Rewind
 seekbackwardmedialong=
@@ -411,11 +411,11 @@ _launch=Meta+F
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
 NewWindow=
-_launch=Ctrl+Alt+T; Meta+K
+_launch=Meta+K; Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Alt+F2; Alt+Space; Search; Meta+Space
+_launch=Meta+Space; Search; Alt+F2; Meta+O; Alt+Space
 
 [org.kde.kscreen.desktop][Global Shortcuts]
 ShowOSD=Display
@@ -439,12 +439,12 @@ RecordScreen=Meta+Shift+R
 RecordWindow=Meta+Ctrl+R
 RectangularRegionScreenShot=
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
-_launch=Meta+A; Print
+_launch=Print; Meta+A
 
 [org.kde.touchpadshortcuts.desktop][Global Shortcuts]
 DisableTouchpad=Touchpad Off
 EnableTouchpad=Touchpad On
-ToggleTouchpad=Meta+Ctrl+Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku; Touchpad Toggle
+ToggleTouchpad=Meta+Ctrl+Zenkaku Hankaku; Touchpad Toggle; Meta+Ctrl+Touchpad Toggle
 
 [org.speedcrunch.SpeedCrunch.desktop][Global Shortcuts]
 _launch=Meta+Q
@@ -466,7 +466,7 @@ powerProfile=Meta+B; Battery
 
 [plasmashell][Global Shortcuts]
 Slideshow Wallpaper Next Image=
-activate application launcher=Meta+\\; Meta+`; Alt+F1; Meta+Backspace
+activate application launcher=Meta+`; Meta+Backspace; Meta+\\; Alt+F1
 activate task manager entry 1=Meta+1
 activate task manager entry 10=
 activate task manager entry 2=Meta+2

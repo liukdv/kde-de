@@ -69,14 +69,14 @@ ClearLastMouseMark=Meta+Ctrl+Shift+F11,Meta+Shift+F12,Clear Last Mouse Mark
 ClearMouseMarks=Meta+Ctrl+Shift+F12,Meta+Shift+F11,Clear All Mouse Marks
 Cube=none,none,Toggle Cube
 Cycle Overview=none,none,Cycle through Overview and Grid View
-Cycle Overview Opposite=Meta+F1,none,Cycle through Grid View and Overview
+Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
 Edit Tiles=Meta+T,Meta+T,Toggle Tiles Editor
-Expose=Meta+F2,Meta+F9\tCtrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Launch (C)\tMeta+F3,Meta+F10\tLaunch (C)\tCtrl+F10,Toggle Present Windows (All desktops)
+Expose=Meta,Meta+F9\tCtrl+F9,Toggle Present Windows (Current desktop)
+ExposeAll=Meta+F2\tMeta+N,Meta+F10\tLaunch (C)\tCtrl+F10,Toggle Present Windows (All desktops)
 ExposeClass=none,Meta+F7\tCtrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
-Grid View=none,Meta+G,Toggle Grid View
+Grid View=Meta+I,Meta+G,Toggle Grid View
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
 KrohnkiteBTreeLayout=none,none,Krohnkite: BTree Layout
@@ -122,7 +122,7 @@ MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
 MoveZoomRight=none,none,Move Zoomed Area to Right
 MoveZoomUp=none,none,Move Zoomed Area Upwards
-Overview=Meta,Meta+W,Toggle Overview
+Overview=Meta+E\tMeta+F1,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=Meta+D,Meta+D,Peek at Desktop
 Switch One Desktop Down=Meta+Shift+Down,Meta+Ctrl+Down,Switch One Desktop Down
@@ -370,7 +370,7 @@ _launch=Meta+F
 _launch=Meta+K\tCtrl+Alt+T
 
 [services][org.kde.krunner.desktop]
-_launch=Alt+F2\tAlt+Space\tSearch\tMeta+Space
+_launch=Meta+Space\tSearch\tAlt+F2\tMeta+O\tAlt+Space
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Display
@@ -382,6 +382,8 @@ _launch=Meta+X
 _launch=Meta+.
 
 [services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
 RecordRegion=Meta+Alt+R
 RecordScreen=Meta+Shift+R
 RectangularRegionScreenShot=none
