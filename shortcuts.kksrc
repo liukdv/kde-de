@@ -18,7 +18,7 @@ Switch to Next Keyboard Layout=Meta+Ctrl+Return
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+]; Ctrl+PgDown
+Activate Next Tab=Ctrl+PgDown; Ctrl+]
 Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
@@ -27,12 +27,12 @@ BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+W; Ctrl+Esc
+Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=Meta+,
 ConfigureToolbars=
-Copy=Ctrl+C; Ctrl+Ins
+Copy=Ctrl+Ins; Ctrl+C
 CreateFolder=Ctrl+Shift+N
-Cut=Shift+Del; Ctrl+X
+Cut=Ctrl+X; Shift+Del
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -64,7 +64,7 @@ New=Ctrl+N
 Next=PgDown
 NextCompletion=Ctrl+Down
 Open=Ctrl+O
-OpenContextMenu=Shift+F10; Menu
+OpenContextMenu=Menu; Shift+F10
 OpenMainMenu=F10
 OpenRecent=
 Paste=Shift+Ins; Ctrl+V
@@ -75,8 +75,8 @@ Print=Ctrl+P
 PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
-Redo=Ctrl+Y; Ctrl+Shift+Z
-Reload=F5; Refresh
+Redo=Ctrl+Shift+Z; Ctrl+Y
+Reload=Refresh; F5
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -86,7 +86,7 @@ RotateUp=Up
 Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Ctrl+H; Alt+.
+ShowHideHiddenFiles=Alt+.; Ctrl+H
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -98,7 +98,7 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=
 Zoom=
-ZoomIn=Ctrl+=; Ctrl++
+ZoomIn=Ctrl++; Ctrl+=
 ZoomOut=Ctrl+-
 
 [code.desktop][Global Shortcuts]
@@ -158,7 +158,7 @@ mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
-Lock Session=Screensaver; Meta+L
+Lock Session=Meta+L; Screensaver
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=
 LogOut=
@@ -176,10 +176,10 @@ Cycle Overview Opposite=
 Decrease Opacity=
 Edit Tiles=Meta+T
 Expose=Meta
-ExposeAll=Meta+F2; Meta+N
+ExposeAll=Meta+N; Meta+F2
 ExposeClass=
 ExposeClassCurrentDesktop=
-Grid View=Meta+I
+Grid View=Meta+I; Meta+F3
 Increase Opacity=
 Kill Window=Meta+Ctrl+Esc
 KrohnkiteBTreeLayout=
@@ -219,13 +219,13 @@ KrohnkitegrowWidth=
 KrohnkitetoggleDock=
 Move Tablet to Next LogicalOutput=
 Move Tablet to Next Output=
-MoveMouseToCenter=Meta+F6; Meta+Ctrl+Alt+Shift
+MoveMouseToCenter=Meta+Ctrl+Alt+Shift; Meta+F6
 MoveMouseToFocus=
 MoveZoomDown=
 MoveZoomLeft=
 MoveZoomRight=
 MoveZoomUp=
-Overview=Meta+E; Meta+F1
+Overview=Meta+E; Meta+Menu; Meta+F1
 Setup Window Shortcut=
 Show Desktop=Meta+D
 Switch One Desktop Down=Meta+Shift+Down
@@ -382,8 +382,8 @@ mediavolumeup=
 nextmedia=Ctrl+Alt+Down; Media Next
 pausemedia=Media Pause
 playmedia=
-playpausemedia=Ctrl+Alt+Return; Media Play
-previousmedia=Ctrl+Alt+Up; Media Previous
+playpausemedia=Media Play; Ctrl+Alt+Return
+previousmedia=Media Previous; Ctrl+Alt+Up
 seekbackwardmedia=Media Rewind
 seekbackwardmedialong=
 seekforwardmedia=Media Fast Forward
@@ -411,11 +411,11 @@ _launch=Meta+F
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
 NewWindow=
-_launch=Meta+K; Ctrl+Alt+T
+_launch=Ctrl+Alt+T; Meta+K
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Meta+Space; Search; Alt+F2; Meta+O; Alt+Space
+_launch=Meta+O; Alt+Space; Meta+Space; Search; Alt+F2
 
 [org.kde.kscreen.desktop][Global Shortcuts]
 ShowOSD=Display
@@ -439,7 +439,7 @@ RecordScreen=Meta+Shift+R
 RecordWindow=Meta+Ctrl+R
 RectangularRegionScreenShot=
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
-_launch=Print; Meta+A
+_launch=Meta+A; Print
 
 [org.kde.touchpadshortcuts.desktop][Global Shortcuts]
 DisableTouchpad=Touchpad Off
@@ -462,11 +462,11 @@ PowerOff=Power Off
 Sleep=
 Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
-powerProfile=Meta+B; Battery
+powerProfile=Battery; Meta+B
 
 [plasmashell][Global Shortcuts]
 Slideshow Wallpaper Next Image=
-activate application launcher=Meta+`; Meta+Backspace; Meta+\\; Alt+F1
+activate application launcher=Meta+Backspace; Meta+`; Alt+F1; Meta+\\
 activate task manager entry 1=Meta+1
 activate task manager entry 10=
 activate task manager entry 2=Meta+2
@@ -491,13 +491,13 @@ previous activity=
 repeat_action=
 show dashboard=Ctrl+F12
 show-barcode=
-show-on-mouse-pos=Ctrl+Alt+C; Meta+C
+show-on-mouse-pos=Meta+C; Ctrl+Alt+C
 switch to next activity=
 switch to previous activity=
 toggle do not disturb=Meta+M
 
 [systemsettings.desktop][Global Shortcuts]
-_launch=Tools; Meta+S
+_launch=Meta+S; Tools
 kcm-kscreen=
 kcm-lookandfeel=
 kcm-powerdevilprofilesconfig=
