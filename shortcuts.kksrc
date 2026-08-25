@@ -18,21 +18,21 @@ Switch to Next Keyboard Layout=Meta+Ctrl+Return
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+PgDown; Ctrl+]
-Activate Previous Tab=Ctrl+[; Ctrl+PgUp
+Activate Next Tab=Ctrl+]; Ctrl+PgDown
+Activate Previous Tab=Ctrl+PgUp; Ctrl+[
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
-Back=Alt+Left; Back
+Back=Back; Alt+Left
 BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+W; Ctrl+Esc
+Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=Meta+,
 ConfigureToolbars=
-Copy=Ctrl+Ins; Ctrl+C
+Copy=Ctrl+C; Ctrl+Ins
 CreateFolder=Ctrl+Shift+N
-Cut=Shift+Del; Ctrl+X
+Cut=Ctrl+X; Shift+Del
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -49,7 +49,7 @@ FindPrev=
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Alt+Right; Forward
+Forward=Forward; Alt+Right
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
@@ -64,10 +64,10 @@ New=Ctrl+N
 Next=PgDown
 NextCompletion=Ctrl+Down
 Open=Ctrl+O
-OpenContextMenu=Shift+F10; Menu
+OpenContextMenu=Menu; Shift+F10
 OpenMainMenu=F10
 OpenRecent=
-Paste=Ctrl+V; Shift+Ins
+Paste=Shift+Ins; Ctrl+V
 Paste Selection=Ctrl+Shift+Ins
 Preferences=Ctrl+Shift+,
 PrevCompletion=Ctrl+Up
@@ -75,8 +75,8 @@ Print=Ctrl+P
 PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
-Redo=Ctrl+Shift+Z; Ctrl+Y
-Reload=Refresh; F5
+Redo=Ctrl+Y; Ctrl+Shift+Z
+Reload=F5; Refresh
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -86,7 +86,7 @@ RotateUp=Up
 Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Alt+.; Ctrl+H
+ShowHideHiddenFiles=Ctrl+H; Alt+.
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -98,7 +98,7 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=
 Zoom=
-ZoomIn=Ctrl+=; Ctrl++
+ZoomIn=Ctrl++; Ctrl+=
 ZoomOut=Ctrl+-
 
 [code.desktop][Global Shortcuts]
@@ -225,7 +225,7 @@ MoveZoomDown=
 MoveZoomLeft=
 MoveZoomRight=
 MoveZoomUp=
-Overview=Meta+F1; Meta+Menu; Meta+E
+Overview=Meta+E; Meta+Menu; Meta+F1
 Setup Window Shortcut=
 Show Desktop=Meta+D
 Switch One Desktop Down=Meta+Shift+Down
@@ -301,10 +301,10 @@ Window Fullscreen=
 Window Grow Horizontal=
 Window Grow Vertical=
 Window Lower=
-Window Maximize=Alt+F10; Meta+PgUp
+Window Maximize=Alt+F10; Meta+PgUp; Meta+Alt+PgUp
 Window Maximize Horizontal=
 Window Maximize Vertical=
-Window Minimize=Meta+PgDown
+Window Minimize=Meta+Alt+PgDown; Meta+PgDown
 Window Move=
 Window Move Center=
 Window No Border=
@@ -373,13 +373,13 @@ Window to Screen 6=
 Window to Screen 7=
 disableInputCapture=Meta+Shift+Esc
 view_actual_size=Meta+0
-view_zoom_in=Meta++; Meta+=
+view_zoom_in=Meta+=; Meta++
 view_zoom_out=Meta+-
 
 [mediacontrol][Global Shortcuts]
 mediavolumedown=
 mediavolumeup=
-nextmedia=Media Next; Ctrl+Alt+Down
+nextmedia=Ctrl+Alt+Down; Media Next
 pausemedia=Media Pause
 playmedia=
 playpausemedia=Ctrl+Alt+Return; Media Play
@@ -411,11 +411,11 @@ _launch=Meta+F
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
 NewWindow=
-_launch=Ctrl+Alt+T; Meta+K
+_launch=Meta+K; Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Meta+O; Meta+Space; Alt+Space; Search; Alt+F2
+_launch=Meta+Space; Alt+F2; Alt+Space; Search; Meta+O
 
 [org.kde.kscreen.desktop][Global Shortcuts]
 ShowOSD=Display
@@ -444,7 +444,7 @@ _launch=Meta+A; Print
 [org.kde.touchpadshortcuts.desktop][Global Shortcuts]
 DisableTouchpad=Touchpad Off
 EnableTouchpad=Touchpad On
-ToggleTouchpad=Meta+Ctrl+Touchpad Toggle; Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku
+ToggleTouchpad=Touchpad Toggle; Meta+Ctrl+Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku
 
 [org.speedcrunch.SpeedCrunch.desktop][Global Shortcuts]
 _launch=Meta+Q
@@ -462,11 +462,11 @@ PowerOff=Power Off
 Sleep=
 Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
-powerProfile=Battery; Meta+B
+powerProfile=Meta+B; Battery
 
 [plasmashell][Global Shortcuts]
 Slideshow Wallpaper Next Image=
-activate application launcher=Alt+F1; Meta+`; Meta+\\; Meta+Backspace
+activate application launcher=Meta+Backspace; Meta+\\; Meta+`; Alt+F1
 activate task manager entry 1=Meta+1
 activate task manager entry 10=
 activate task manager entry 2=Meta+2
@@ -497,7 +497,7 @@ switch to previous activity=
 toggle do not disturb=Meta+M
 
 [systemsettings.desktop][Global Shortcuts]
-_launch=Meta+S; Tools
+_launch=Tools; Meta+S
 kcm-kscreen=
 kcm-lookandfeel=
 kcm-powerdevilprofilesconfig=
