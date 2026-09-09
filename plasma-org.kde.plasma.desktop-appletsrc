@@ -166,10 +166,10 @@ popupHeight=567
 popupWidth=588
 
 [Containments][2][Applets][55][Configuration][General]
-cursorPosition=432
+cursorPosition=984
 fontSize=10
 noteId=6bfc5128-7e1f-4599-bee0-fe85397716
-scrollY=3330
+scrollY=31
 
 [Containments][2][Applets][56]
 immutability=1
