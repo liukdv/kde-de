@@ -1,6 +1,6 @@
 [Daemon]
 LockGrace=30
-Timeout=30
+Timeout=40
 
 [Greeter][Wallpaper][org.kde.image][General]
 Image=file:///nix/store/ph6q3vpgc634yka3n75hsw367v5wa512-plasma-workspace-wallpapers-6.5.6/share/wallpapers/Mountain/

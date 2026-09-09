@@ -18,8 +18,8 @@ Switch to Next Keyboard Layout=Meta+Ctrl+Return
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+]; Ctrl+PgDown
-Activate Previous Tab=Ctrl+PgUp; Ctrl+[
+Activate Next Tab=Ctrl+PgDown; Ctrl+]
+Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
 Back=Back; Alt+Left
@@ -56,7 +56,7 @@ Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=
-Home=Alt+Home; Home Page
+Home=Home Page; Alt+Home
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -76,7 +76,7 @@ PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
 Redo=Ctrl+Shift+Z; Ctrl+Y
-Reload=F5; Refresh
+Reload=Refresh; F5
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -153,12 +153,12 @@ decrease_volume_small=Shift+Volume Down
 increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up
 increase_volume_small=Shift+Volume Up
-mic_mute=Microphone Mute; Meta+Volume Mute
+mic_mute=Meta+Volume Mute; Microphone Mute
 mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
-Lock Session=Meta+L; Screensaver
+Lock Session=Screensaver; Meta+L
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=
 LogOut=
@@ -176,7 +176,7 @@ Cycle Overview Opposite=
 Decrease Opacity=
 Edit Tiles=Meta+T
 Expose=Meta
-ExposeAll=Meta+N; Meta+F2
+ExposeAll=Meta+F2; Meta+E
 ExposeClass=
 ExposeClassCurrentDesktop=
 Grid View=Meta+F3; Meta+I
@@ -225,7 +225,7 @@ MoveZoomDown=
 MoveZoomLeft=
 MoveZoomRight=
 MoveZoomUp=
-Overview=Meta+E; Meta+Menu; Meta+F1
+Overview=Meta+N; Meta+Menu; Meta+F1
 Setup Window Shortcut=
 Show Desktop=Meta+D
 Switch One Desktop Down=Meta+Shift+Down
@@ -301,10 +301,10 @@ Window Fullscreen=
 Window Grow Horizontal=
 Window Grow Vertical=
 Window Lower=
-Window Maximize=Meta+PgUp; Meta+Alt+PgUp; Alt+F10
+Window Maximize=Alt+F10; Meta+Alt+PgUp; Meta+PgUp
 Window Maximize Horizontal=
 Window Maximize Vertical=
-Window Minimize=Meta+Alt+PgDown; Meta+PgDown
+Window Minimize=Meta+PgDown; Meta+Alt+PgDown
 Window Move=
 Window Move Center=
 Window No Border=
@@ -373,16 +373,16 @@ Window to Screen 6=
 Window to Screen 7=
 disableInputCapture=Meta+Shift+Esc
 view_actual_size=Meta+0
-view_zoom_in=Meta++; Meta+=
+view_zoom_in=Meta+=; Meta++
 view_zoom_out=Meta+-
 
 [mediacontrol][Global Shortcuts]
 mediavolumedown=
 mediavolumeup=
-nextmedia=Media Next; Ctrl+Alt+Down
+nextmedia=Ctrl+Alt+Down; Media Next
 pausemedia=Media Pause
 playmedia=
-playpausemedia=Ctrl+Alt+Return; Media Play
+playpausemedia=Media Play; Ctrl+Alt+Return
 previousmedia=Ctrl+Alt+Up; Media Previous
 seekbackwardmedia=Media Rewind
 seekbackwardmedialong=
@@ -411,11 +411,11 @@ _launch=Meta+F
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
 NewWindow=
-_launch=Meta+K; Ctrl+Alt+T
+_launch=Ctrl+Alt+T; Meta+K
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Meta+O; Search; Meta+Space; Alt+Space; Alt+F2
+_launch=Meta+O; Alt+F2; Search; Alt+Space; Meta+Space
 
 [org.kde.kscreen.desktop][Global Shortcuts]
 ShowOSD=Display
@@ -439,12 +439,12 @@ RecordScreen=Meta+Shift+R
 RecordWindow=Meta+Ctrl+R
 RectangularRegionScreenShot=
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
-_launch=Print; Meta+A
+_launch=Meta+A; Print
 
 [org.kde.touchpadshortcuts.desktop][Global Shortcuts]
 DisableTouchpad=Touchpad Off
 EnableTouchpad=Touchpad On
-ToggleTouchpad=Meta+Ctrl+Zenkaku Hankaku; Touchpad Toggle; Meta+Ctrl+Touchpad Toggle
+ToggleTouchpad=Meta+Ctrl+Zenkaku Hankaku; Meta+Ctrl+Touchpad Toggle; Touchpad Toggle
 
 [org.speedcrunch.SpeedCrunch.desktop][Global Shortcuts]
 _launch=Meta+Q
@@ -462,11 +462,11 @@ PowerOff=Power Off
 Sleep=
 Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
-powerProfile=Meta+B; Battery
+powerProfile=Battery; Meta+B
 
 [plasmashell][Global Shortcuts]
 Slideshow Wallpaper Next Image=
-activate application launcher=Meta+`; Alt+F1; Meta+\\; Meta+Backspace
+activate application launcher=Meta+\\; Meta+Backspace; Meta+`; Alt+F1
 activate task manager entry 1=Meta+1
 activate task manager entry 10=
 activate task manager entry 2=Meta+2
@@ -497,7 +497,7 @@ switch to previous activity=
 toggle do not disturb=Meta+M
 
 [systemsettings.desktop][Global Shortcuts]
-_launch=Tools; Meta+S
+_launch=Meta+S; Tools
 kcm-kscreen=
 kcm-lookandfeel=
 kcm-powerdevilprofilesconfig=

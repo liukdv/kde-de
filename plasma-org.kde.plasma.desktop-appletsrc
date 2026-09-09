@@ -169,6 +169,7 @@ popupWidth=588
 cursorPosition=432
 fontSize=10
 noteId=6bfc5128-7e1f-4599-bee0-fe85397716
+scrollY=3330
 
 [Containments][2][Applets][56]
 immutability=1
@@ -182,7 +183,7 @@ popupWidth=587
 cursorPosition=40
 fontSize=10
 noteId=3db94cd1-414d-4623-ba17-635ed8f716
-scrollY=1417
+scrollY=342
 
 [Containments][2][Applets][58]
 immutability=1
@@ -362,6 +363,8 @@ AppletOrder=3;4;5;59;58;47;55;7;29;56;20;21
 global=Meta+Z
 
 [Containments][30]
+ItemGeometries-1422x800=
+ItemGeometriesHorizontal=
 activityId=34c22c79-97c7-4f74-ae5c-9ef014203dc1
 formfactor=0
 immutability=1
