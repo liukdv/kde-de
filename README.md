@@ -6,5 +6,9 @@ usati da KDE in `~/.config/`: le modifiche fatte da Plasma sono visibili qui.
 `kwinrulesrc` punta a `~/.config/kwinrulesrc`, inizialmente vuoto.
 `shortcuts.kksrc` rimane un file da esportare manualmente.
 
+`applications/` contiene i link ai due launcher delle scorciatoie Meta+P
+(schermo) e Meta+R (scorciatoie). Esporta anche questa sottocartella come file
+reali: `plasma.sh` li copia in `~/.local/share/applications/` sul PC destinatario.
+
 Per importare su un altro PC, metti i file reali scaricati in`/home/liukdv/Documents/mine/configs/plasma`.
 Esci dalla sessione Plasma, passa alla console con Ctrl+Alt+F3 ed esegui ``bash plasma.sh``

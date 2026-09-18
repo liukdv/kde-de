@@ -18,3 +18,10 @@ for entry in "$plasma_repo"/autostart/*.desktop; do
   cp --backup=numbered --remove-destination \
     "$entry" "$HOME/.config/autostart/"
 done
+
+for entry in "$plasma_repo"/applications/*.desktop; do
+  [ -f "$entry" ] || continue
+  mkdir -p "$HOME/.local/share/applications"
+  cp --backup=numbered --remove-destination \
+    "$entry" "$HOME/.local/share/applications/"
+done
