@@ -1,0 +1,7 @@
+[Layout]
+DisplayNames=,
+LayoutList=us,us
+Options=lv3:ralt_switch,shift:both_capslock_cancel,eurosign:5
+ResetOldOptions=true
+Use=true
+VariantList=colemak,

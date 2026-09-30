@@ -28,7 +28,7 @@ DialogHeight=1252
 DialogWidth=1024
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///nix/store/982amdvgy4y9pbl5gfq2igvk71z4r2xm-breeze-6.5.6/share/wallpapers/Next/
+Image=file:///nix/store/wh476k5129vjz91mfw8chym3pjmkiyrc-plasma-workspace-wallpapers-6.6.6/share/wallpapers/Orionids/
 SlidePaths=/nix/store/vikq2n1i3jczwp4pi1mc980jbl3snw8v-breeze-6.5.4/share/wallpapers/,/run/current-system/sw/share/wallpapers/
 
 [Containments][2]
@@ -374,7 +374,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=file:///nix/store/982amdvgy4y9pbl5gfq2igvk71z4r2xm-breeze-6.5.6/share/wallpapers/Next/
+Image=file:///nix/store/wh476k5129vjz91mfw8chym3pjmkiyrc-plasma-workspace-wallpapers-6.6.6/share/wallpapers/Orionids/
 SlidePaths=/nix/store/vikq2n1i3jczwp4pi1mc980jbl3snw8v-breeze-6.5.4/share/wallpapers/,/run/current-system/sw/share/wallpapers/
 
 [Containments][31]
