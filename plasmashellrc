@@ -1,6 +1,9 @@
 [General]
 Number of Actions=0
 
+[Notification Messages]
+klipperClearHistoryStarredChoice=false
+
 [PlasmaViews][Panel 2]
 alignment=132
 floating=1

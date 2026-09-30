@@ -1,7 +1,7 @@
 plasma_repo="/home/liukdv/Documents/mine/configs/plasma"
 
 cp --backup=numbered --remove-destination \
-  "$plasma_repo"/{kdeglobals,kglobalshortcutsrc,kwinrc} \
+  "$plasma_repo"/{kdeglobals,kglobalshortcutsrc,kwinrc,kcminputrc} \
   "$plasma_repo"/{plasma-org.kde.plasma.desktop-appletsrc,plasmashellrc,plasmarc} \
   "$plasma_repo"/{krunnerrc,plasmanotifyrc,kscreenlockerrc} \
   "$HOME/.config/"
