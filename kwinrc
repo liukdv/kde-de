@@ -83,15 +83,15 @@ floatingLayoutOrder=5
 layoutPerActivity=false
 monocleLayoutOrder=0
 monocleMaximize=false
-newWindowPosition=2
 preventProtrusion=false
 quarterLayoutOrder=0
-spiralLayoutOrder=2
+spiralLayoutOrder=1
 spreadLayoutOrder=0
 stackedLayoutOrder=0
 stairLayoutOrder=3
 stairReverse=true
 threeColumnLayoutOrder=0
+tileLayoutOrder=2
 
 [TabBox]
 ActivitiesMode=0

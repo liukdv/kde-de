@@ -6,6 +6,16 @@ cp --backup=numbered --remove-destination \
   "$plasma_repo"/{krunnerrc,plasmanotifyrc,kscreenlockerrc} \
   "$HOME/.config/"
 
+# Ripristina le opzioni della tastiera mantenendo layout e modello del PC destinatario.
+if [ -f "$plasma_repo/kxkbrc" ]; then
+  for keyboard_option in Options ResetOldOptions; do
+    keyboard_value=$(kreadconfig6 --file "$plasma_repo/kxkbrc" \
+      --group Layout --key "$keyboard_option") || exit 1
+    kwriteconfig6 --file "$HOME/.config/kxkbrc" \
+      --group Layout --key "$keyboard_option" "$keyboard_value" || exit 1
+  done
+fi
+
 # Non sostituire le regole del PC destinatario con un file vuoto.
 if [ -s "$plasma_repo/kwinrulesrc" ]; then
   cp --backup=numbered --remove-destination \
