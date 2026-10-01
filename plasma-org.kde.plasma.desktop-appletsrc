@@ -257,6 +257,9 @@ DialogWidth=810
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][2][Applets][7][Applets][12][Shortcuts]
+global=Meta+`
+
 [Containments][2][Applets][7][Applets][13]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
@@ -329,6 +332,9 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][2][Applets][7][Applets][57][Shortcuts]
+global=Alt+Media Play
+
 [Containments][2][Applets][7][Applets][60]
 immutability=1
 plugin=org.kde.kdeconnect
@@ -339,6 +345,9 @@ PreloadWeight=42
 [Containments][2][Applets][7][Applets][9]
 immutability=1
 plugin=org.kde.plasma.clipboard
+
+[Containments][2][Applets][7][Applets][9][Shortcuts]
+global=Ctrl+Alt+Up
 
 [Containments][2][Applets][7][ConfigDialog]
 DialogHeight=630

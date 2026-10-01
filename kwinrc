@@ -24,10 +24,11 @@ Rows=3
 Strength=40
 
 [Effect-mousemark]
+Arrowdrawalt=true
 Arrowdrawcontrol=false
-Arrowdrawmeta=false
-Arrowdrawshift=false
+Freedrawalt=true
 Freedrawcontrol=true
+Freedrawshift=false
 
 [Effect-shakecursor]
 Magnification=4
@@ -95,7 +96,6 @@ tileLayoutOrder=2
 
 [TabBox]
 ActivitiesMode=0
-LayoutName=thumbnail_grid
 OrderMinimizedMode=1
 
 [TabBoxAlternative]

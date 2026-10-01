@@ -65,8 +65,8 @@ _k_friendly_name=Session Management
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activate Window Demanding Attention
-ClearLastMouseMark=Meta+Ctrl+Shift+F11,Meta+Shift+F12,Clear Last Mouse Mark
-ClearMouseMarks=Meta+Ctrl+Shift+F12,Meta+Shift+F11,Clear All Mouse Marks
+ClearLastMouseMark=\t,Meta+Shift+F12,Clear Last Mouse Mark
+ClearMouseMarks=Ctrl+Alt+Shift+Del,Meta+Shift+F11,Clear All Mouse Marks
 Cube=none,none,Toggle Cube
 Cycle Overview=none,none,Cycle through Overview and Grid View
 Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
@@ -319,8 +319,11 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate widget 12=Meta+`,none,Activate Notifications Widget
 activate widget 2=Meta+Z,none,Activate Panel Widget
 activate widget 3=none,none,Activate Application Launcher Widget
+activate widget 57=Alt+Media Play,none,Activate Media Player Widget
+activate widget 9=Ctrl+Alt+Up,none,Activate Clipboard Widget
 clear-history=Ctrl+Alt+\\\\,,Clear Clipboard History
 clipboard_action=,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=none,Meta+Alt+P,Move keyboard focus between panels
@@ -333,7 +336,7 @@ previous activity=none,none,Walk through activities (Reverse)
 repeat_action=none,,Manually Invoke Action on Current Clipboard
 show dashboard=none,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…
-show-on-mouse-pos=Ctrl+Alt+Up,Meta+V,Show Clipboard Items at Mouse Position
+show-on-mouse-pos=,Meta+V,Show Clipboard Items at Mouse Position
 switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=Meta+X,,Toggle do not disturb
@@ -378,8 +381,6 @@ _launch=Meta+C
 _launch=Meta+.
 
 [services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=
-OpenWithoutScreenshot=
 RecordRegion=none
 RecordScreen=none
 RecordWindow=none
